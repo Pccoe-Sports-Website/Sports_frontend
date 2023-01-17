@@ -1,0 +1,83 @@
+.tableContent {
+    background-color:
+    rgba(71, 98, 156, 1);
+}
+table {
+    border-collapse: collapse;
+    width: 98%;
+    margin: 1%;
+    text-align: center;
+  }
+.tableContent {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .tableContent td, .tableContent th {
+    border: 1px solid rgb(250, 246, 246);
+    padding: 3px;
+  }
+  
+  .tableContent tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .tableContent tr:hover {background-color: #ddd;}
+  
+  .tableContent th {
+    text-align: center;
+    color: white;
+  }
+  .heading {
+    background: linear-gradient(270deg, #D9D9D9 90.4%, rgba(217, 217, 217, 0) 100%);
+    margin: 2%;
+    color: #005BAB;
+    display: flex;
+  }
+  .heading h2 {
+    margin:0 40% 0% 40%;
+  }
+  .list {
+    display: flex;
+      justify-content: space-evenly;
+      flex-direction: row;
+  }
+  .list select {
+  width: 295px;
+  height: 30px;
+  
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+  margin: 5%;
+  }
+  .header {
+    background: linear-gradient(116.55deg, #3DC3DB 16.66%, #0295BB 83.34%);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .adminName {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+  }
+  .logo {
+    width: 45px;
+height: 45px;
+margin: 5px;
+margin-left: 1rem;
+  }
+  .name {
+    margin: 7px;
+    margin-right: 40px;
+  }
+ .icon {
+  margin: 7px;
+  margin-right: 10px;
+  transform: scale(1.5);
+ }
+ .menu {
+  transform: scale(1.5);
+  margin: 10px;
+ }

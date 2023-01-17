@@ -1,0 +1,24 @@
+select {
+  width: 10rem;
+  height: 30px;
+}
+.list {
+  display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.list select {
+  position: absolute;
+width: 294px;
+height: 36px;
+left: 58px;
+top: 187px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 7px;
+}
+/* p {
+  font-weight: bold;
+  font-style: italic;
+} */

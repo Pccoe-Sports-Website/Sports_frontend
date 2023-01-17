@@ -1,0 +1,160 @@
+.app {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-color: #f8f9fd;
+  }
+  
+  /* input[type="text"],
+  input[type="password"] {
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  } */
+  
+  button[type="submit"] {
+    cursor: pointer;
+    font-size: 18px;
+    background: rgba(37, 138, 226, 1);
+    border: none;
+    color: #fff;
+    padding: 6px 24px;
+    border-radius: 5px;
+}
+  button[type="submit"]:hover {
+    background: #6cf0c2;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .login-form {
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .list-container {
+    display: flex;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .title {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 10px;
+  }
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .navbar {
+    background: #dad0d0;
+  }
+  .nav-item::after {
+    content: "";
+    display: block;
+    width: 0px;
+    height: 2px;
+    background: #000000;
+    transition: 0.4s;
+  }
+  
+  .nav-item:hover::after {
+    width: 100%;
+  }
+  
+  .navbar-dark .navbar-nav .active > .nav-link,
+  .navbar-dark .navbar-nav .nav-link.active,
+  .navbar-dark .navbar-nav .nav-link.show,
+  .navbar-dark .navbar-nav .show > .nav-link,
+  .navbar-dark .navbar-nav .nav-link:focus,
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: #ffffff;
+  }
+  
+  .nav-link {
+    padding: 25px 5px;
+    transition: 0.2s;
+  }
+  
+  body {
+    background-color: rgb(245, 242, 242);
+  }
+  
+  .container-md, .container-sm, .container {
+      max-width: 100%;
+  }
+  .trust {
+    color: blue;
+  }
+  
+  
+  #color {
+    color: rgb(0, 0, 0);
+    background-color: #ffc107;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .side {
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  /* Main column */
+  .main {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+  }
+  .header {
+    padding: 12px;
+  }
+  .admin {
+    background-color: #39c0ed;
+  }
+  img {
+    margin-top: 1rem;
+  }
+  .navb {
+    text-align: left;
+    background-color: #39c0ed;
+    color: white;
+    height: 2rem;
+    width: 100%;
+    font-size: 15px;
+  }
+  .link {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .link:hover {
+    color: black;
+  }
+  h2{
+    text-align: center;
+  }
