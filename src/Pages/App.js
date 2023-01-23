@@ -1,13 +1,13 @@
 import React from 'react'
-import Navbar from './Components/Navbar'
-import Header from './Components/Header'
+import Navbar from '../Components/Navbar'
+import Header from '../Components/Header'
 import { Route, Routes } from 'react-router-dom'
-import About from './Components/About'
-import Home from './Components/Home'
-import Login from './Components/Login'
-import AdminPanel from './Components/adminpanel'
-import Register from './Components/register'
-import ThankYou from './Components/thankYou'
+import About from '../Components/About'
+import Home from '../Components/Home'
+import Login from '../Components/Login'
+import AdminPanel from '../Components/adminpanel'
+import Register from '../Components/register'
+import ThankYou from '../Components/thankYou'
 function App() {
   return (
    <>
